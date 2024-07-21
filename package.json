@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev":"pnpm --filter @sunny-ui/play dev",
+    "story": "pnpm --filter @sunny-ui/play storybook",
     "docs:dev":"pnpm --filter @sunny-ui/docs dev",
     "docs:built":"pnpm --filter @sunny-ui/docs built",
-    "test":"echo \"todo\""
+    "test":"pnpm --filter @sunny-ui/components test"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +35,9 @@
     "sunny-ui": "workspace:*",
     "@sunny-ui/hooks": "workspace:*",
     "@sunny-ui/utils": "workspace:*",
-    "@sunny-ui/theme": "workspace:*"
+    "@sunny-ui/theme": "workspace:*",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8"
   }
 }
