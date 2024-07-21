@@ -2,21 +2,9 @@
 </script>
 
 <template>
-  <er-button />
-  <er-button>hello</er-button>
+  <button></button>
+  <er-button type="success"size="large">1121</er-button>
+  <er-button type="primary" size="small">hello</er-button>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+
